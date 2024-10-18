@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(),
         home:BlocProvider(
         create: (context) => BookBloc(),
-        child: CustomBottomNavigationBar(), 
+        child: const CustomBottomNavigationBar(), 
       ), );
   }
 }

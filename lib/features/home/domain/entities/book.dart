@@ -16,16 +16,4 @@ class Book {
     required this.coverPictureURL,
     required this.price,
   });
-
-  factory Book.fromJson(Map<String, dynamic> json) {
-    return Book(
-      id: json['id'],
-      title: json['title'],
-      description: json['description'],
-      publishedDate: json['publishedDate'],
-      authorId: json['authorId'],
-      coverPictureURL: json['coverPictureURL'],
-      price: json['price'].toDouble(),
-    );
-  }
 }

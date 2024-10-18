@@ -1,5 +1,6 @@
 import 'package:book/features/home/data/book_bloc.dart';
-import 'package:book/features/home/data/model/book.dart';
+import 'package:book/features/home/data/model/book_model.dart';
+import 'package:book/features/home/domain/entities/book.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

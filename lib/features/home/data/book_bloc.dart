@@ -1,6 +1,6 @@
 // 
 
-import 'package:book/features/home/data/model/book.dart';
+import 'package:book/features/home/data/model/book_model.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:http/http.dart' as http;
